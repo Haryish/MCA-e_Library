@@ -4,9 +4,6 @@ create database exercise1_order_processing;
 show databases;
 
 use exercise1_order_processing;
-/* ---------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------*/
 
 -- A.	DDL to implement the schema with primary key, check constraints, and foreign key constraints 
 CREATE TABLE CUSTOMER (
@@ -18,9 +15,7 @@ CREATE TABLE CUSTOMER (
 
 desc customer;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 CREATE TABLE CUST_ORDER (
   ORDERNO BIGINT PRIMARY KEY,
@@ -33,9 +28,7 @@ CREATE TABLE CUST_ORDER (
 
 desc cust_order;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 CREATE TABLE ITEM (
   ITEMNO BIGINT PRIMARY KEY,
@@ -46,9 +39,7 @@ CREATE TABLE ITEM (
 
 desc item;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 CREATE TABLE ORDER_ITEM (
   ORDERNO BIGINT,
@@ -60,9 +51,7 @@ CREATE TABLE ORDER_ITEM (
 
 desc order_item;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 
 -- B.	Populate the rich data set with atlease 5 records in each:
@@ -76,9 +65,7 @@ INSERT INTO customer (Customerno, cname, city) VALUES
     
 select * from customer;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
     
 INSERT INTO cust_order (orderno, odate, customerno, ord_amt) VALUES
@@ -96,9 +83,7 @@ INSERT INTO cust_order (orderno, odate, customerno, ord_amt) VALUES
     
 select * from cust_order;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
     
 INSERT INTO item (itemno, item_name, unit_price) VALUES
@@ -110,9 +95,7 @@ INSERT INTO item (itemno, item_name, unit_price) VALUES
     
 select * from item;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 
 INSERT INTO order_item (orderno, itemno, qty) VALUES
@@ -128,9 +111,7 @@ INSERT INTO order_item (orderno, itemno, qty) VALUES
     
 select * from order_item;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 
 /*
@@ -158,9 +139,7 @@ GROUP BY c.CUSTOMERNO
 having COUNT(*) > 3;
 
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 
 -- d. SQL query to list the details of items whose price is less than the average price of all items:
@@ -171,9 +150,7 @@ WHERE UNIT_PRICE < (
   FROM ITEM
 );
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 
 -- e. SQL query to list the orderno and number of items in each order:
@@ -181,9 +158,7 @@ SELECT ORDERNO, COUNT(*) AS NUM_ITEMS
 FROM ORDER_ITEM
 GROUP BY ORDERNO;
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 
 -- f. SQL query to list the details of items that are present in 25% of the orders:
@@ -199,9 +174,7 @@ HAVING COUNT(*) > (
     FROM CUST_ORDER
   );
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
   
 -- g. Update statement to update the value of ORD_AMT
@@ -210,9 +183,7 @@ UPDATE cust_order SET customerno = '40003' WHERE orderno = 50011;
 
 select * from cust_order where customerno in (40001,40003);
 
-/* ---------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------- */
 
 
 -- h. Create a view that keeps track of the details of each customer and the number of orders placed:
@@ -224,13 +195,11 @@ GROUP BY C.CUSTOMERNO, C.CNAME, C.CITY;
 
 select * from customer_orders_view;
 
-/* ---------------------------------------------------------------------------------------------------
 40001	John Doe	New York	3
 40002	Jane Smith	Los Angeles	2
 40003	Michael	Chicago	4
 40004	Robost	Hoston	1
 40005	Emily	San Fransisco	1
---------------------------------------------------------------------------------------------------- */
 
 
 -- i. Database trigger to limit the insertion of more than six records in the CUST_ORDER table for a particular order
@@ -261,10 +230,8 @@ INSERT INTO order_item (orderno, itemno, qty) VALUES
 
 select count(orderno) from order_item where orderno=50003;
 
-/* ---------------------------------------------------------------------------------------------------
 13:52:17
 Error Code: 1644. Maximum number of items per order is 6.	
 0.062 sec
---------------------------------------------------------------------------------------------------- */
 
 drop database exercise1_order_processing;
