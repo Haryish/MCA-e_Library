@@ -27,27 +27,25 @@ Herewith the subjects provided for us for easy context.
 5. Python Programming 
 6. Research Methodology and Intellectual Property Rights 
 7. Advanced Database Technology Laboratory 
-8. Advanced Data Structures and 
-9. Python Programming Laboratory 
-10. Communication Skills Enhancement – I 
+8. Advanced Data Structures and Python Programming Laboratory 
+9. Communication Skills Enhancement – I 
 
 ## Semester 2: 
 1.	Internet Programming 
 2.	Cloud Computing Technologies 
-3.	Artificial Intelligence and Machine 
-4.	Learning 
-5.	Mobile Application Development 
-6.	Cyber Security 
-7.	Professional Elective I (Open Elective)
+3.	Artificial Intelligence and Machine Learning 
+4.	Mobile Application Development 
+5.	Cyber Security 
+6.	Professional Elective I (Open Elective)
     a.	Software Project Management 
     b.	Agile Methodologies 
     c.	E Learning 
     d.	Software Quality and Testing 
     e.	Advances in Operating Systems 
     f.	Digital Image Processing
-8.	Internet Programming Laboratory 
-9.	Artificial Intelligence and Machine Learning Laboratory 
-10.	Communication Skills Enhancement– II
+7.	Internet Programming Laboratory 
+8.	Artificial Intelligence and Machine Learning Laboratory 
+9.	Communication Skills Enhancement– II
 
 ## Semester 3:
 1.	Data Science 
@@ -74,7 +72,7 @@ Herewith the subjects provided for us for easy context.
     c.	Professional Ethics in IT 
     d.	Marketing Management 
     e.	Organizational Behaviour
-f.	Business Data Analytics
+    f.	Business Data Analytics
 7.	Professional Elective V 
     a.	Cryptocurrency and Blockchain 
     b.	Technologies 
