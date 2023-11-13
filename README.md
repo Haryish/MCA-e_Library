@@ -20,7 +20,7 @@ Herewith the subjects provided for us for easy context.
 # Syllabus
 
 ## Semester 1:
-<ul>
+<ol>
   <li>Matrices, Probability and Statistics</li>
   <li>Advanced Data Structures and Algorithms</li>
   <li>Advanced Database Technology</li>
@@ -30,81 +30,84 @@ Herewith the subjects provided for us for easy context.
   <li>Advanced Database Technology Laboratory</li>
   <li>Advanced Data Structures and Python Programming Laboratory</li>
   <li>Communication Skills Enhancement – I</li>
-</ul>
+</ol>
 
 
 ## Semester 2: 
-<ul>
+<ol>
   <li>Internet Programming</li>
   <li>Cloud Computing Technologies</li>
   <li>Artificial Intelligence and Machine Learning</li>
   <li>Mobile Application Development</li>
   <li>Cyber Security</li>
   <li>Professional Elective I (Open Elective)
-    <ul>
+    <ol>
       <li>Software Project Management</li>
       <li>Agile Methodologies</li>
       <li>E-Learning</li>
       <li>Software Quality and Testing</li>
       <li>Advances in Operating Systems</li>
       <li>Digital Image Processing</li>
-    </ul>
+    </ol>
   </li>
   <li>Internet Programming Laboratory</li>
   <li>Artificial Intelligence and Machine Learning Laboratory</li>
   <li>Communication Skills Enhancement - II</li>
-</ul>
+</ol>
 
 
 ## Semester 3:
-<ul>
+<ol>
   <li>Data Science</li>
   <li>Embedded Systems and Internet of Things</li>
   <li>Accounting and Financial Management for Application Development</li>
-  <li>Professional Elective II
-    <ul>
+  <li>
+    Professional Elective II
+    <ol type="a">
       <li>Compiler Optimization Techniques</li>
       <li>C# and .NET programming</li>
       <li>Wireless Networking</li>
       <li>Web Design</li>
       <li>Network Programming and Security</li>
       <li>Microservices and DevOps</li>
-    </ul>
+    </ol>
   </li>
-  <li>Professional Elective III
-    <ul>
+  <li>
+    Professional Elective III
+    <ol type="a">
       <li>Social Network Analytics</li>
       <li>Bio-Inspired Computing</li>
       <li>Information Retrieval Techniques</li>
       <li>Software Architecture</li>
       <li>Digital Forensics</li>
       <li>Data Mining and Data Warehousing Techniques</li>
-    </ul>
+    </ol>
   </li>
-  <li>Professional Elective IV
-    <ul>
+  <li>
+    Professional Elective IV
+    <ol type="a">
       <li>Data Visualization Techniques</li>
       <li>Operations Research</li>
       <li>Professional Ethics in IT</li>
       <li>Marketing Management</li>
       <li>Organizational Behavior</li>
       <li>Business Data Analytics</li>
-    </ul>
+    </ol>
   </li>
-  <li>Professional Elective V
-    <ul>
+  <li>
+    Professional Elective V
+    <ol type="a">
       <li>Cryptocurrency and Blockchain Technologies</li>
       <li>Advances in Networking</li>
       <li>Soft Computing Techniques</li>
       <li>Deep Learning</li>
       <li>Big Data Processing</li>
       <li>Natural Language Processing</li>
-    </ul>
+    </ol>
   </li>
   <li>Data Science Laboratory</li>
   <li>Internet of Things Laboratory</li>
-</ul>
-
+</ol>
 
 ## Semester 4
 Project Work
